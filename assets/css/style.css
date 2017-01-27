@@ -247,6 +247,12 @@ input[type=submit] {
 
 
 @media only screen and (max-width: 980px){
+.auth-image {
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    text-align: center;
+}
 
 
 }
@@ -282,6 +288,13 @@ input[type=submit] {
     margin-right:  20px;
     padding:  0 15px;
   }
+  .auth-image {
+    width: 33%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    float: left;
+}
 
 
 }
@@ -322,16 +335,24 @@ input[type=submit] {
   }
 
   nav {
-    float: left;
-    margin-top: 25px;
+    float: none;
+    clear: all;
+    margin-top: 5px;
     display: block;
-    /*text-align: center;*/
+    text-align: center;
+
   }
 
   nav a {
     display: inline-block;
-    margin:  0 35px;
-    padding:  0 35px;
+    margin:  0 5px;
+    padding:  0 15px;
   }
 
+.auth-image {
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    text-align: center;
+}
 }
