@@ -254,6 +254,14 @@ input[type=submit] {
     text-align: center;
 }
 
+.work {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    /* float: left; */
+    margin: 20px 0 25px;
+}
+
 
 }
 
@@ -265,14 +273,15 @@ input[type=submit] {
     max-width: 100%;
     float: none;
     margin: 40px 60px 40px 20px;
-    /*margin-right: 60px;*/
+    /* margin-right: 60px; */
+    clear: both;
   }
 .main-section {
     padding: 20px;
     margin: 20px ;
     margin-right: 60px;
     margin-top: 0px;
-    float: none;
+    /*float: none;*/
     width: 93%;
     max-width: 768px;
   }
@@ -288,12 +297,20 @@ input[type=submit] {
     margin-right:  20px;
     padding:  0 15px;
   }
-  .auth-image {
-    width: 33%;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+
+.auth-image {
+    width: 100%;
+    float: none;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.work {
+    position: relative;
+    width: 313px;
+    overflow: auto;
     float: left;
+    margin: 20px 0 25px;
 }
 
 
@@ -354,5 +371,24 @@ input[type=submit] {
     float: none;
     margin-right: 0px;
     text-align: center;
+}
+
+.work {
+    margin-top: 0px;
+    float: none;
+    width: 100%;
+}
+.work h3 {
+    position: absolute;
+    bottom: 25px;
+    margin-bottom: 0;
+    padding: 10px;
+    width:100%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
 }
